@@ -139,3 +139,25 @@ Emojis can be added to by typing :EMOJICODE:
 
 @sshsrn Good work :+1: 
 
+## Footnotes
+
+Footnotes can be added to the content by using this bracket syntax:
+
+This is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+<!-- The below three lines will be at the bottom of the document. -->
+[^1]: simple footnote.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+## Ignore Markdown formatting
+
+Markdown formatting can be ignored by using \ before the Markdown character.
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
