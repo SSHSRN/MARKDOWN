@@ -83,3 +83,34 @@ To create a block quote, preface a line with the "greater than" caret (>).
 Block quotes can contain other Markdown elements, such as italics, images, or links.
 
 >This is a BlockQuote having link to [google](https://www.google.com)!
+
+## Lists
+
+There are two types of lists: unordered and ordered. <br>
+To create an unordered list, preface each item in the list with an asterisk ( * ). <br>
+Each list item also gets its own line.
+
+* List-item1
+* List-item2
+* List-item3
+* List-item4
+* List-item5
+
+An ordered list is prefaced with numbers, instead of asterisks.
+
+1. List-item1
+2. List-item2
+3. List-item3
+4. List-item4
+5. List-item5
+
+To nest one list within another, the Markdown syntax is exactly the same. Just indent each asterisk one space more than the preceding item.
+
+* Animals
+    * Herbivores
+        * Deer
+        * Elephant
+    * Carnivores
+        * Lion
+        * Tiger
+
