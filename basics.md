@@ -3,6 +3,10 @@
 Hello World!
 This document contains the basics of writing a markdown file (md).
 
+### Why MarkDown?  
+Markdown is a fast and easy way to take notes, create content for a website, and produce print-ready documents.  
+It doesn’t take long to learn the Markdown syntax, and once you know how to use it, you can write using Markdown just about everywhere. Most people use Markdown to create content for the web, but Markdown is good for formatting everything from email messages to grocery lists.
+
 ## Bold and Italic
 
 _This text is italic._
@@ -114,3 +118,10 @@ To nest one list within another, the Markdown syntax is exactly the same. Just i
         * Lion
         * Tiger
 
+## Paragraphs
+
+Markdown has several ways of formatting paragraphs.
+
+Using an empty line in between two lines to create a linebreak in the rendered markdown is called _hard break_.
+
+Using two spaces at the end if a line to create a linebreak in the rendered markdown is called _soft break_.
