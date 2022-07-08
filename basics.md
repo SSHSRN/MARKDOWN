@@ -161,3 +161,50 @@ You can also use words, to fit your writing style more closely[^note].
 Markdown formatting can be ignored by using \ before the Markdown character.
 
 Let's rename \*our-new-project\* to \*our-old-project\*.
+
+## Tables
+
+Tables are used for organising the data in rows and columns.  
+
+| Column1 | Column2 |
+| --- | --- |
+| Row1-Column1 | Row1-Column2 |
+| Row2-Column1 | Row2-Column2 |
+
+The pipes on either end of the table are optional.
+
+There must be at least three hyphens in each column of the header row.
+
+### Formatting in table
+
+Formattings like links, inline code blocks, and text styling can be used within a table.
+
+| Command | Description |
+| --- | --- |
+| `print("Hello world")` | Python code to *print Hello world*  |
+
+Text alignmments can also be done.
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| left   | center     | right    |
+
+## Collapsed sections
+
+Any Markdown within the \<details> block will be collapsed until the reader clicks > to expand the details. Within the \<details> block, use the \<summary> tag to create a label to the right of >.
+
+<details><summary>Do not Click</summary>
+<p>
+
+#### I did warn you!
+
+```python
+print("You shouldn't have clicked it.")
+```
+
+```python
+    print("You shouldnnow face the consequences.")
+```
+
+</p>
+</details>
