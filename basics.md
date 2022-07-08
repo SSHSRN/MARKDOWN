@@ -203,8 +203,25 @@ print("You shouldn't have clicked it.")
 ```
 
 ```python
-    print("You shouldnnow face the consequences.")
+    print("You should now face the consequences.")
 ```
 
 </p>
 </details>
+
+## Diagrams
+
+Markdown can also be used to create diagrams to convey information through charts and graphs.  
+
+Mermaid is a Markdown-inspired tool that renders text into diagrams.  
+For example, Mermaid can render flow charts, sequence diagrams, pie charts and more. 
+
+Mermaid documentation => https://mermaid-js.github.io/mermaid/#/
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
