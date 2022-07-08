@@ -118,6 +118,13 @@ To nest one list within another, the Markdown syntax is exactly the same. Just i
         * Lion
         * Tiger
 
+## Task Lists
+
+To create a task list, preface list items with a hyphen and space followed by [ ].  
+To mark a task as complete, use [x].  
+- [ ] Task A  
+- [x] Task B
+
 ## Paragraphs
 
 Markdown has several ways of formatting paragraphs.
@@ -125,3 +132,10 @@ Markdown has several ways of formatting paragraphs.
 Using an empty line in between two lines to create a linebreak in the rendered markdown is called _hard break_.
 
 Using two spaces at the end if a line to create a linebreak in the rendered markdown is called _soft break_.
+
+## Emojis
+
+Emojis can be added to by typing :EMOJICODE:  
+
+@sshsrn Good work :+1: 
+
