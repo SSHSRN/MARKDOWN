@@ -66,8 +66,20 @@ To create an inline image link, enter an exclamation point ( ! ), wrap the alt t
 ![Github Cat](https://octodex.github.com/images/Fintechtocat123.png)
 <br>
 For a reference image, the pattern is same as a reference link.<br>
-Precede the Markdown with an exclamation point, then provide two brackets for the alt text, and then two more for the image tag, like this: ![The master][yoga] At the bottom of your Markdown page, you'll define an image for the tag, like this: [yoga]: https://octodex.github.com/images/yogitocat.png.<br>
+Precede the Markdown with an exclamation point, then provide two brackets for the alt text, and then two more for the image tag, like this: ![The master][yogaCat] At the bottom of your Markdown page, you'll define an image for the tag, like this: [yoga]: https://octodex.github.com/images/yogitocat.png.<br>
 
 ![The master][yoga]
 
 [yoga]: https://octodex.github.com/images/yogitocat.png
+
+## BlockQuotes
+
+A blockquote is a sentence or paragraph that's been specially formatted to draw attention to the reader. 
+
+To create a block quote, preface a line with the "greater than" caret (>).
+
+>This is a BlockQuote!
+
+Block quotes can contain other Markdown elements, such as italics, images, or links.
+
+>This is a BlockQuote having link to [google](https://www.google.com)!
