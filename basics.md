@@ -45,10 +45,29 @@ As the name implies, the link is actually a reference to another place in the do
 Here's [a link to github][github].<br>
 Here's [yet another link][google].
 
-[github]: www.github.com
-[google]: www.google.com
+[github]: https://www.github.com
+[google]: https://www.google.com
 
 Reference links don't appear in the rendered Markdown. <br>
 You define them by providing the same tag name wrapped in brackets, followed by a colon, followed by the link.
 
+## Images
 
+The syntax for creating links and images is nearly the same.<br>
+Images also have two styles, just like links, and both of them render the exact same way. <br>
+The difference between links and images is that images are prefaced with an exclamation point ( ! ).
+
+The first image style is called an inline image link.<br>
+To create an inline image link, enter an exclamation point ( ! ), wrap the alt text in brackets ( [ ] ), and then wrap the link in parenthesis ( ( ) ). (Alt text is a phrase or sentence that describes the image when the image is not loaded.)
+
+![Github Cat](https://octodex.github.com/images/Fintechtocat.png)
+
+<!-- The below image url is invalid, so the alt(alternative) text is displayed -->
+![Github Cat](https://octodex.github.com/images/Fintechtocat123.png)
+<br>
+For a reference image, the pattern is same as a reference link.<br>
+Precede the Markdown with an exclamation point, then provide two brackets for the alt text, and then two more for the image tag, like this: ![The master][yoga] At the bottom of your Markdown page, you'll define an image for the tag, like this: [yoga]: https://octodex.github.com/images/yogitocat.png.<br>
+
+![The master][yoga]
+
+[yoga]: https://octodex.github.com/images/yogitocat.png
